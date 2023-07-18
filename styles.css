@@ -80,6 +80,18 @@ button {
     background-color: #1F2937;
 }
 
+.bg-clr-white {
+    background-color: #F9FAF8;
+}
+
+.bg-clr-gray {
+    background-color: #E5E7EB;
+}
+
+.bg-clr-light-blue {
+    background-color: #3882F6;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -87,6 +99,12 @@ button {
     flex-wrap: wrap;
     padding: 1rem 8rem;
     margin-bottom: 4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
 }
 
 .header ul {
@@ -97,13 +115,69 @@ button {
     margin: .5rem;
 }
 
-section {
+.section {
     display: flex;
-    gap: 2em;
     justify-content: space-between;
     padding: 2rem 8rem;
 }
 
+/* Hero Section */
 .hero-text-container {
     align-self: top;
+    height: auto;
+    width: fit-content;
+    padding: 2rem;
+}
+
+/* Article Section */
+.article-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 2rem;
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-content > img {
+    border: solid 3px #3882F6;
+    border-radius: 5px;
+}
+
+.article-content > p {
+    text-align: center;
+    margin: .5rem 0;
+}
+
+/* Quote Section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.quote-section p {
+    display:flex;
+    justify-content: right;
+    padding: 0 10rem;
+}   
+
+/* Action Section */
+.action-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    gap: 2rem;
+    border-radius: 5px;
 }
